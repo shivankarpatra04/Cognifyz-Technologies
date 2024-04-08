@@ -1,0 +1,40 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    color: #1e272e;
+}
+
+table.dataframe {
+    font-size: 14px;
+    border-collapse: collapse;
+    border: 1px solid #d2dae2;
+    background-color: #fff;
+}
+
+th,
+td {
+    border: 1px solid #d2dae2;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f1f2f6;
+    font-weight: bold;
+}
