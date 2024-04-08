@@ -145,7 +145,7 @@ def predictive_modeling():
     plt.ylabel('Frequency')
     plt.grid(axis='y', linestyle='--')
     plt.show()
-    st.pyplot()
+    st.pyplot(fig)
     st.set_option('deprecation.showPyplotGlobalUse', False)
 
     # Plot the top 10 cuisines by average rating
